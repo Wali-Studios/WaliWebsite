@@ -1,4 +1,5 @@
 .hero {
+  position: relative;
   background-position: 50% 50%;
   @include flexbox();
   @include flex-direction(column);
