@@ -1,4 +1,9 @@
 /* start custom scss snippet */
+.article__header--overlay {
+  position: relative;
+}
+
+
 .article__header--overlay::after {
     content: "";
     display: block;
