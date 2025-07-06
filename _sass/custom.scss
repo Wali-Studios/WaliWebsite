@@ -26,15 +26,6 @@ html {
   font-size: 1.2rem;
 }
 
-@media (max-width: 600px) {
-  .hero {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-    min-height: auto;
-  }
-}
-
 marquee {
   background-color: #303030;
   font-style: italic;
