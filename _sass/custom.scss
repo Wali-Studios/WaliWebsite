@@ -29,8 +29,15 @@ marquee {
   text-align: left;
 }
 
-.contact {
+#contact {
   text-align: left;
+  font-size: 2rem;
+}
+
+#contact img {
+  display:inline-block;
+  height: 50px;
+  width: auto;
 }
 
 .footer {
