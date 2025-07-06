@@ -11,7 +11,7 @@
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
           {%- include snippets/get-nav-url.html path=_paths_root -%}
           {%- if site.title -%}
-            <a class="header__logo" style="height:40px;width:auto;object-fit:contain" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}"><img src="/WaliWebsite/assets/images/Wali_Logo_Long_Black_NoIcon.png" alt="Wali Studios"></a>
+            <a class="header__logo" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}"><img style="height:40px;width:auto;object-fit:contain" src="/WaliWebsite/assets/images/Wali_Logo_Long_Black_NoIcon.png" alt="Wali Studios"></a>
           {%- endif -%}
         </div>
         {%- if site.search.provider -%}
