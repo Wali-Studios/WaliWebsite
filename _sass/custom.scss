@@ -34,10 +34,15 @@ marquee {
   font-size: 2rem;
 }
 
+.social {
+  text-align: left;
+}
+
 .social img {
-  display:inline-block;
+  display:inline-block !important;
   height: 50px;
-  width: auto;
+  width: auto !important;
+  margin: 10px !important;
 }
 
 .footer {
