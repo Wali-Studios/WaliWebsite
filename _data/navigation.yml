@@ -1,11 +1,7 @@
 header:
   - title:      Home
     url:        /
-  - title:      Project
-    url:        /project.html
   - title:      About us
-    url:        /about.html
+    url:        /#about
   - title:      Newsletter
-    url:        /newsletter.html
-  - title:      Contact
-    url:        /contact.html
+    url:        /#newsletter
