@@ -1,4 +1,13 @@
 /* start custom scss snippet */
+.header {
+  background-image: url("/assets/images/BG_Yellow.png");
+}
+
+.navigation__item {
+  color: white;
+  background-color: black;
+}
+
 marquee {
   background-color: #303030;
   font-style: italic;
