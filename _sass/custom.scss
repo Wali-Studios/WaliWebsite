@@ -12,8 +12,12 @@ html {
 
 .header {
   background-image: url("/WaliWebsite/assets/images/BG_Yellow.png");
-  position: sticky;
+}
+
+.page__header {
   top: 0;
+  position: sticky;
+  z-index: 10;
 }
 
 .navigation__item {
