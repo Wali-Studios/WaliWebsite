@@ -1,4 +1,13 @@
 /* start custom scss snippet */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('/WaliWebsite/assets/fonts/IBMPlexMono-Regular.ttf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 .header {
   background-image: url("/WaliWebsite/assets/images/BG_Yellow.png");
 }
