@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   background-image: url("/WaliWebsite/assets/images/BG_Yellow.png");
 }
@@ -28,5 +32,6 @@ marquee {
 .footer {
   background-image: url("/WaliWebsite/assets/images/BG_Yellow.png");
   color: black;
+  text-align: center;
 }
 /* end custom scss snippet */
