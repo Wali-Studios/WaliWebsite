@@ -6,8 +6,6 @@
   font-style: normal;
 }
 
-
-
 .header {
   background-image: url("/WaliWebsite/assets/images/BG_Yellow.png");
 }
@@ -25,5 +23,10 @@ marquee {
 .bio {
   font-size: small;
   text-align: left;
+}
+
+.footer {
+  background-image: url("/WaliWebsite/assets/images/BG_Yellow.png");
+  color: black;
 }
 /* end custom scss snippet */
