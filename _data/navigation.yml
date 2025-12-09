@@ -3,7 +3,5 @@ header:
     url:        /
   - title:      About us
     url:        /#about
-  - title:      Newsletter
+  - title:      Presskit
     url:        /#newsletter
-    title:      Presskit
-    url:        /#presskit
