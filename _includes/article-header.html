@@ -15,6 +15,18 @@
 
   {%- if _show_title or _show_edit_on_github -%}
     <div class="article__header">
+      
+
+    {% if page.hero_video %}
+      <div class="hero-video-wrapper">
+        <iframe
+          src="{{ page.hero_video }}"
+          frameborder="0"
+        ></iframe>
+      </div>
+    {% endif %}
+
+
       {%- if _show_title -%}
         <header><h1>{{ _article_title }}</h1></header>
       {%- endif -%}
@@ -47,3 +59,4 @@
 {%- if include.semantic != false -%}
   <meta itemprop="headline" content="{{ _article_title }}">
 {%- endif -%}
+

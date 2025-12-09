@@ -14,6 +14,23 @@ html {
   background-image: url("/assets/images/BG_Yellow.png");
 }
 
+.article__header {
+  position: relative; 
+  height: 80vh;
+  width: 100%;
+}
+
+.hero-video-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
 .page__header {
   top: 0;
   position: sticky;
@@ -32,6 +49,36 @@ html {
   }
 }
 
+.hero-2 {
+  justify-items: center;
+  justify-content: center;
+}
+
+.about-us {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0px 0px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.grid-item-1,
+.grid-item-2,
+.grid-item-3 {
+  justify-self: center;
+}
+
+.grid-item-1 {
+  border-bottom: solid;
+}
+
+.grid-item-3 {
+  border-top: solid;
+}
 
 marquee {
   background-color: #303030;
@@ -69,5 +116,13 @@ marquee {
   background-image: url("/assets/images/BG_Yellow.png");
   color: black;
   text-align: center;
+}
+
+.acknowledgement {
+  margin: auto;
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
 }
 /* end custom scss snippet */

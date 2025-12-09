@@ -7,11 +7,12 @@ article_header:
   align: center
   height: 80vh
   background_image:
-    src: /assets/images/2025_Wyrmspace_KeyArt_16x9.png
 ---
+
 
 <div class="layout--landing">
   <div class="heros">
+
   {%- for _section in page.data.sections -%}
     {%- include snippets/get-nav-url.html path=_section.background_image.src -%}
     {%- assign _url = __return -%}
@@ -26,9 +27,10 @@ article_header:
         style="background-image: url({{ _url }}); background-color: {{ _section.background_color }};">
     {%- else -%}
         style="background-image: url({{ _url }});">
-    {%- endif -%}
+    {%- endif -%}    
 
         <div class="hero__content">
+
           <div class="mb-5">
 
             <h3>{{ _section.title }}</h3>
